@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachel Lim — Landscape Architecture</title>
+
+    <link rel="icon" type="image/png" href="images/CT32x32.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+
+<body class="bg-white text-neutral-900 antialiased selection:bg-black selection:text-white">
+
+    <!-- NAV -->
+    <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-neutral-200">
+        <div class="max-w-6xl mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
+            
+            <a href="index.html" class="font-semibold text-base md:text-lg tracking-tight text-neutral-900 shrink-0">
+                Rachel Lim
+            </a>
+            
+            <div class="flex items-center gap-3 md:gap-6 text-xs md:text-sm font-medium text-neutral-500">
+                <a href="#projects" class="hover:text-neutral-900 transition-colors">Projects</a>
+                <a href="#about" class="hover:text-neutral-900 transition-colors">About</a>
+                <a href="mailto:rachel30ruiqi@gmail.com" class="px-4 py-1.5 md:px-5 md:py-2 bg-neutral-900 text-white rounded-full hover:bg-neutral-800 transition-colors shrink-0">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section id="about" class="max-w-4xl mx-auto px-6 pt-40 pb-20">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-normal tracking-tight leading-tight mb-8 text-neutral-900">
+            <strong>Landscape Architecture Student</strong> exploring spatial design, ecology, and community
+        </h1>
+
+        <p class="text-neutral-600 text-lg md:text-xl leading-relaxed mb-6">
+            I am interested in designing landscapes that respond to both environmental systems and human experience, 
+            integrating research, site analysis, and design thinking into meaningful spatial outcomes.
+        </p>
+
+        <p class="text-neutral-600 text-lg md:text-xl leading-relaxed mb-10">
+            My work explores participatory design, urban morphology, and the relationship between people and place — 
+            translating insights into drawings, 3D models, and physical prototypes.
+        </p>
+
+        <p class="text-neutral-600 text-lg md:text-xl leading-relaxed">
+            Currently pursuing a <strong>Bachelor of Landscape Architecture at the National University of Singapore (NUS)</strong>.
+        </p>
+        
+        <div class="flex justify-center gap-4 mt-20">
+            <a href="https://www.linkedin.com/" target="_blank" class="px-6 py-3 bg-neutral-900 text-white text-sm font-medium rounded-full hover:bg-neutral-800 transition-colors">
+                LinkedIn
+            </a>
+            <a href="#" target="_blank" class="px-6 py-3 bg-neutral-900 text-white text-sm font-medium rounded-full hover:bg-neutral-800 transition-colors">
+                Portfolio
+            </a>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 pt-0 pb-12">
+        <div class="flex items-center justify-center mb-12">
+            <p class="text-neutral-500 text-sm">Selected Works</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <a href="#" class="group block">
+                <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-neutral-100 mb-4">
+                    <img src="images/project1.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="flex justify-between items-start">
+                    <h3 class="text-lg font-medium text-neutral-900">Participatory Design Studio</h3>
+                    <span class="text-neutral-500 text-sm mt-1">2026</span>
+                </div>
+            </a>
+
+            <a href="#" class="group block">
+                <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-neutral-100 mb-4">
+                    <img src="images/project2.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="flex justify-between items-start">
+                    <h3 class="text-lg font-medium text-neutral-900">Holland Village Urban Study</h3>
+                    <span class="text-neutral-500 text-sm mt-1">2025</span>
+                </div>
+            </a>
+
+            <a href="#" class="group block">
+                <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-neutral-100 mb-4">
+                    <img src="images/project3.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                </div>
+                <div class="flex justify-between items-start">
+                    <h3 class="text-lg font-medium text-neutral-900">Abstract Spatial Exploration</h3>
+                    <span class="text-neutral-500 text-sm mt-1">2024</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-neutral-200 mt-12 bg-white">
+        <div class="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-neutral-500">
+            <p>© Rachel Lim - 2026</p>
+            <div class="flex gap-6">
+                <a href="#projects" class="hover:text-neutral-900 transition-colors">Projects</a>
+                <a href="#about" class="hover:text-neutral-900 transition-colors">About</a>
+                <a href="mailto:rachel30ruiqi@gmail.com" class="hover:text-neutral-900 transition-colors">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
