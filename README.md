@@ -1,2 +1,2 @@
-# Rachel-s-Landscape-Architecture-Portfolio
+# Rachel LIM -Landscape-Architecture-Portfolio
 Rachel's Landscape Architecture Portfolio
